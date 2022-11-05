@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(216deg, #8d4b3f, #ff2700, #ffffff);
+    background-size: 600% 600%;
+
+    animation: bgcolor 28s ease infinite;
+}
+
+@keyframes bgcolor {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+#mainheader{
+    font-family: vivaldi;
+    font-size: 60px;
+    margin: 0;
+}
+
+#mainheadcontainer{
+    margin-top: 0%;
+}
+.card{
+    margin: 27px;
+}
+#trrampimg{
+    width: 100%;
+    height: 750px;
+    float: left;
+}
+.card-title{
+    font-family: "mistral";
+    font-size: 45px;
+}
+.card-body{
+    margin: 0px;
+}
+#imgeslogo{
+    height: 100px;
+}
+#button{
+    padding: 10px;
+}
+#ampbody{
+    font-size: 29px;
+    font-family: 'monotype corsiva';
+}
+#btnspan{
+    margin-left: 500px;
+}
+
+
+#artists{
+    text-align: center;
+}
+#bandsnames{
+  text-align: center;
+}
+#tickets{
+  margin-top: 100px;
+}
+#ticketshead{
+  text-align: center;
+}
